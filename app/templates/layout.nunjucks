@@ -1,0 +1,19 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>{% block title %}{% endblock %}</title>
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="/main.css">
+
+    </head>
+    <body>
+      	{% block content %} {% endblock %}
+        <script src="/scripts/main.js"></script>
+        {% block scripts %} {% endblock %}
+
+	</body>
+</html>

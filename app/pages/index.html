@@ -1,0 +1,16 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+{% block title %}
+Homepage Title
+{% endblock %}
+{% block content %}
+{% import 'macros/nav-macro.nunjucks' as nav %}
+{{nav.active('home')}}
+
+<h1>Homepage</h1>
+
+{% endblock %}
+
+
+{% block scripts %}
+{% endblock %}
